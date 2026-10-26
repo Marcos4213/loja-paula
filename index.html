@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Loja Paula — beleza para a rotina real</title>
+  <meta name="description" content="Skincare, maquiagem, cabelos, corpo e perfumaria. Loja Paula, com frete grátis acima de R$ 199 e pedido pelo WhatsApp.">
+  <meta name="theme-color" content="#f4efe8">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Outfit:wght@300;400;500;600&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="page-home">
+<a class="skip" href="#conteudo">Ir para o conteúdo</a>
+<div class="announce"><p>Frete grátis acima de <span data-frete-min>R$&nbsp;199,00</span> <span aria-hidden="true">·</span> Troca em 30 dias <span aria-hidden="true">·</span> <a href="contato.html">WhatsApp</a></p></div>
+<header class="header">
+  <div class="header-bar">
+    <button class="icon-btn nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principal" data-open-menu>
+      <span class="sr">Abrir menu</span>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h12"/></svg>
+    </button>
+    <a class="logo" href="index.html" aria-label="Loja Paula, página inicial">
+      <span class="logo-kicker">Loja</span>
+      <span class="logo-name">Paula</span>
+    </a>
+    <nav class="nav" id="menu-principal" aria-label="Seções">
+      <button type="button" class="menu-close" data-close-menu>Fechar</button>
+      <a href="catalogo.html?cat=skincare">Skincare</a>
+      <a href="catalogo.html?cat=maquiagem">Maquiagem</a>
+      <a href="catalogo.html?cat=cabelos">Cabelos</a>
+      <a href="catalogo.html?cat=corpo">Corpo &amp; Banho</a>
+      <a href="catalogo.html?cat=perfumaria">Perfumaria</a>
+      <a href="catalogo.html?cat=kits">Kits</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" type="button" data-open-search aria-expanded="false" aria-controls="busca-topo">
+        <span class="sr">Buscar</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16.5 20 20.5"/></svg>
+      </button>
+      <button class="icon-btn cart-btn" type="button" data-open-cart aria-label="Abrir sacola">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 8h11l-.8 12H7.3L6.5 8z"/><path d="M9 8V7.2A3 3 0 0 1 12 4a3 3 0 0 1 3 3.2V8"/></svg>
+        <span class="cart-count" data-cart-count hidden>0</span>
+      </button>
+    </div>
+  </div>
+  <form class="search-pop" id="busca-topo" role="search" action="catalogo.html" method="get" hidden data-search-pop>
+    <label class="sr" for="q-topo">Buscar produtos</label>
+    <input id="q-topo" name="q" type="search" placeholder="Buscar sérum, batom, kit…" autocomplete="off">
+    <button type="submit">Buscar</button>
+  </form>
+</header>
+<div class="nav-backdrop" data-menu-backdrop data-close-menu hidden></div>
+<main id="conteudo">
+  <section class="hero" data-hero aria-roledescription="carrossel" aria-label="Destaques">
+    <article class="hero-slide is-active">
+      <img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=1800&q=75" alt="Retrato em luz natural, pele com brilho baixo e maquiagem mínima" fetchpriority="high" width="1800" height="1200">
+      <div class="hero-copy">
+        <p class="eyebrow">01 — Skincare</p>
+        <h1>A pele, em luz baixa e honesta.</h1>
+        <p class="lede">Rituais curtos, texturas leves e fórmulas que cabem no clima daqui.</p>
+        <a class="btn btn-light" href="catalogo.html?cat=skincare">Explorar skincare</a>
+      </div>
+    </article>
+    <article class="hero-slide" aria-hidden="true" inert>
+      <img src="https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=1800&q=75" alt="Retrato com batom de presença e pele luminosa" width="1800" height="1200">
+      <div class="hero-copy">
+        <p class="eyebrow">02 — Maquiagem</p>
+        <h2>Cor que parece sua, não uma máscara.</h2>
+        <p class="lede">Tons editados, brilho sem glitter e base que respeita a textura.</p>
+        <a class="btn btn-light" href="catalogo.html?cat=maquiagem">Ver maquiagem</a>
+      </div>
+    </article>
+    <article class="hero-slide" aria-hidden="true" inert>
+      <img src="https://images.unsplash.com/photo-1612817288484-6f916006741a?auto=format&fit=crop&w=1800&q=75" alt="Conjunto de frascos de skincare em composição neutra" width="1800" height="1200">
+      <div class="hero-copy">
+        <p class="eyebrow">03 — Kits</p>
+        <h2>Rituais prontos para começar ou presentear.</h2>
+        <p class="lede">Três passos de manhã, ou um kit de cor. Menos dúvida, mais constância.</p>
+        <a class="btn btn-light" href="catalogo.html?cat=kits">Ver os kits</a>
+      </div>
+    </article>
+    <div class="hero-ui">
+      <div class="hero-controls">
+        <button type="button" data-hero-prev aria-label="Slide anterior">←</button>
+        <button type="button" data-hero-next aria-label="Próximo slide">→</button>
+        <button type="button" data-hero-pause aria-pressed="false">Pausar</button>
+      </div>
+      <p class="hero-index" data-hero-index>01 / 03</p>
+    </div>
+  </section>
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Niacinamida 10% · Vitamina C 15% · Manteiga de karité · Chá branco · FPS 50 · Flor de laranjeira · Ácido hialurônico · Esqualano · </span>
+      <span>Niacinamida 10% · Vitamina C 15% · Manteiga de karité · Chá branco · FPS 50 · Flor de laranjeira · Ácido hialurônico · Esqualano · </span>
+    </div>
+  </div>
+  <section class="section" aria-labelledby="t-cats">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Índice</p>
+          <h2 id="t-cats">Por onde começar</h2>
+        </div>
+      </div>
+      <div class="cats">
+        <a class="cat-tile" href="catalogo.html?cat=skincare"><img src="https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=800&q=75" alt="" width="800" height="1000"><span>Skincare</span></a>
+        <a class="cat-tile" href="catalogo.html?cat=maquiagem"><img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=800&q=75" alt="" width="800" height="1000"><span>Maquiagem</span></a>
+        <a class="cat-tile" href="catalogo.html?cat=cabelos"><img src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=800&q=75" alt="" width="800" height="1000"><span>Cabelos</span></a>
+        <a class="cat-tile" href="catalogo.html?cat=corpo"><img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=75" alt="" width="800" height="1000"><span>Corpo &amp; Banho</span></a>
+        <a class="cat-tile" href="catalogo.html?cat=perfumaria"><img src="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=800&q=75" alt="" width="800" height="1000"><span>Perfumaria</span></a>
+        <a class="cat-tile" href="catalogo.html?cat=kits"><img src="https://images.unsplash.com/photo-1612817288484-6f916006741a?auto=format&fit=crop&w=800&q=75" alt="" width="800" height="1000"><span>Kits</span></a>
+      </div>
+    </div>
+  </section>
+  <section class="section" aria-labelledby="t-vendidos" style="padding-top:0">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Seleção</p>
+          <h2 id="t-vendidos">Mais vendidos</h2>
+        </div>
+        <a class="text-link" href="catalogo.html?ordem=vendidos">Ver todos</a>
+      </div>
+      <div class="grid" data-vitrine="vendidos"></div>
+    </div>
+  </section>
+  <section class="section" aria-label="Campanhas" style="padding-top:0">
+    <div class="wrap campaigns">
+      <a class="campaign campaign-lg" href="produto.html?id=kit-ritual-aurora">
+        <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1400&q=75" alt="" width="1400" height="1600">
+        <div>
+          <p class="eyebrow">Ritual de manhã</p>
+          <h2>Três passos. Uma pele estável.</h2>
+          <span>Ver o Kit Aurora</span>
+        </div>
+      </a>
+      <div class="campaign-side">
+        <a class="campaign" href="catalogo.html?cat=maquiagem">
+          <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=1000&q=75" alt="" width="1000" height="800">
+          <div>
+            <p class="eyebrow">Cor</p>
+            <h2>Néctar, malva, terracota.</h2>
+            <span>Ver maquiagem</span>
+          </div>
+        </a>
+        <a class="campaign" href="produto.html?id=protetor-veu-invisivel">
+          <img src="https://images.unsplash.com/photo-1526947425960-945c6e72858f?auto=format&fit=crop&w=1000&q=75" alt="" width="1000" height="800">
+          <div>
+            <p class="eyebrow">Todo dia</p>
+            <h2>FPS que ninguém vê.</h2>
+            <span>Ver o Véu Invisível</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="section" aria-labelledby="t-escolhidos" style="padding-top:0">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">A casa recomenda</p>
+          <h2 id="t-escolhidos">Mais escolhidos</h2>
+        </div>
+        <a class="text-link" href="catalogo.html?ordem=avaliacao">Ver por avaliação</a>
+      </div>
+      <div class="editorial" data-vitrine="escolhidos" data-layout="editorial"></div>
+    </div>
+  </section>
+  <section class="section" aria-labelledby="t-novos" style="padding-top:0">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Acabou de chegar</p>
+          <h2 id="t-novos">Lançamentos</h2>
+        </div>
+        <a class="text-link" href="catalogo.html?ordem=novos">Ver novidades</a>
+      </div>
+      <div class="rail" data-vitrine="lancamentos" data-layout="rail"></div>
+    </div>
+  </section>
+  <section class="section" aria-labelledby="t-beneficios" style="padding-top:0">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Sem letra miúda</p>
+          <h2 id="t-beneficios">O que acompanha o pedido</h2>
+        </div>
+      </div>
+      <ul class="benefits">
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h11v8H3zM14 10h4l3 3v2h-7z"/><circle cx="7" cy="18" r="1.6"/><circle cx="17" cy="18" r="1.6"/></svg><h3>Frete grátis</h3><p>Em compras a partir de <span data-frete-min>R$&nbsp;199,00</span>, para todo o Brasil.</p></li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="18" height="12" rx="1.5"/><path d="M3 10h18"/></svg><h3>Pagamento direto</h3><p>Pix ou cartão, combinados no WhatsApp. Sem criar conta.</p></li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.2-5.5"/><path d="M20 4v5h-5"/></svg><h3>Troca em 30 dias</h3><p>Produto sem uso, na embalagem. A Paula orienta o retorno.</p></li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 16.5 4 20l4.2-1.6A8.5 8.5 0 1 0 6 16.5z"/></svg><h3>Uma pessoa responde</h3><p>O pedido cai no WhatsApp da loja, não num robô de carrinho.</p></li>
+      </ul>
+    </div>
+  </section>
+  <section class="section" aria-labelledby="t-voz" style="padding-top:0">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Prova social</p>
+          <h2 id="t-voz">Quem já levou para casa</h2>
+        </div>
+      </div>
+      <div class="quotes" data-quotes></div>
+    </div>
+  </section>
+  <section class="news" aria-labelledby="t-news" data-news>
+    <div class="wrap">
+      <div>
+        <p class="eyebrow">Cartas da Paula</p>
+        <h2 id="t-news">Uma carta por vez. Sem pressa.</h2>
+      </div>
+      <div>
+        <p>Rituais, lançamentos e cuidados de estação. O e-mail fica só neste navegador: a vitrine é demonstração e não envia mensagens.</p>
+        <form class="news-form" novalidate>
+          <label class="sr" for="email-news">Seu e-mail</label>
+          <input id="email-news" type="email" name="email" placeholder="seu@email.com" autocomplete="email" required>
+          <button class="btn" type="submit">Quero receber</button>
+        </form>
+        <p class="news-err" data-news-err hidden></p>
+        <p data-news-ok hidden>Você está na lista deste aparelho. Quando a carta existir de verdade, começa por aqui.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-grid">
+    <div>
+      <h2>Paula</h2>
+      <p>Beleza autoral para a rotina real. Poucas fórmulas, fotografia honesta e um WhatsApp em vez de um checkout frio.</p>
+    </div>
+    <div>
+      <h3>Loja</h3>
+      <ul>
+        <li><a href="catalogo.html?cat=skincare">Skincare</a></li>
+        <li><a href="catalogo.html?cat=maquiagem">Maquiagem</a></li>
+        <li><a href="catalogo.html?cat=cabelos">Cabelos</a></li>
+        <li><a href="catalogo.html?cat=corpo">Corpo &amp; Banho</a></li>
+        <li><a href="catalogo.html?cat=perfumaria">Perfumaria</a></li>
+        <li><a href="catalogo.html?cat=kits">Kits</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Ajuda</h3>
+      <ul>
+        <li><a href="sobre.html">Sobre a Paula</a></li>
+        <li><a href="frete.html">Frete</a></li>
+        <li><a href="trocas.html">Trocas</a></li>
+        <li><a href="privacidade.html">Privacidade</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Atendimento</h3>
+      <ul>
+        <li><a data-whatsapp-link href="contato.html"><span data-whatsapp-display>+55 11 94710-2630</span></a></li>
+        <li>Todos os dias, 9h às 19h</li>
+        <li>São Paulo, Brasil</li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap legal">
+    <p>© 2026 Loja Paula. Vitrine de demonstração: textos, preços e avaliações são exemplos. Fotos via Unsplash. O pedido é combinado no WhatsApp, sem pagamento neste site.</p>
+  </div>
+</footer>
+<div class="drawer-root" data-drawer hidden>
+  <div class="drawer-backdrop" data-close-cart></div>
+  <aside class="drawer" role="dialog" aria-modal="true" aria-labelledby="drawer-title" tabindex="-1">
+    <header class="drawer-head">
+      <h2 id="drawer-title">Sua sacola</h2>
+      <button type="button" class="icon-btn" data-close-cart aria-label="Fechar sacola">×</button>
+    </header>
+    <div data-ship></div>
+    <div class="drawer-body" data-drawer-body></div>
+    <footer class="drawer-foot" data-drawer-foot></footer>
+  </aside>
+</div>
+<div class="toast" data-toast role="status" aria-live="polite"></div>
+  <script src="js/config.js"></script>
+  <script src="js/loja.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>

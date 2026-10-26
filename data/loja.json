@@ -1,0 +1,960 @@
+{
+  "aviso": "Dados de exemplo para a vitrine de demonstração da Loja Paula. Preços, estoques, avaliações, depoimentos e fórmulas são fictícios. Fotos: Unsplash.",
+  "depoimentos": [
+    {
+      "nome": "Marina Alves",
+      "cidade": "São Paulo",
+      "nota": 5,
+      "produto": "Sérum Luz Aurora",
+      "texto": "Uso de manhã, por baixo do Véu Invisível. A pele fica luminosa e não descama no calor do escritório."
+    },
+    {
+      "nome": "Helena Duarte",
+      "cidade": "Belo Horizonte",
+      "nota": 5,
+      "produto": "Eau de Parfum Paula N°1",
+      "texto": "Perfume de quem chega perto. Flor de laranjeira no começo, madeira clara no fim do dia. Não compete com a pele."
+    },
+    {
+      "nome": "Camila Rocha",
+      "cidade": "Recife",
+      "nota": 4,
+      "produto": "Máscara Reparação Noturna",
+      "texto": "Meu cabelo é colorido e ressecado de sal. Uma vez por semana já muda o toque, sem ficar pesado na raiz."
+    }
+  ],
+  "produtos": [
+    {
+      "id": "serum-luz-aurora",
+      "nome": "Sérum Luz Aurora",
+      "headline": "Vitamina C a 15% para uma luminosidade uniforme.",
+      "categoria": "skincare",
+      "preco": 189,
+      "precoDe": 229,
+      "avaliacao": 4.8,
+      "avaliacoes": 326,
+      "badge": "Mais vendido",
+      "tags": ["vegano", "clean"],
+      "estoque": 6,
+      "semana": 48,
+      "ordem": 80,
+      "vitrines": ["vendidos"],
+      "imagens": [
+        {"id": "1608248543803-ba4f8c70ae0b", "alt": "Frasco conta-gotas de sérum sobre fundo neutro"},
+        {"id": "1598440947619-2c35fc9aa908", "alt": "Conta-gotas com sérum dourado em close"},
+        {"id": "1611080626919-7cf5a9dbab5b", "alt": "Textura leve de sérum sobre a pele"}
+      ],
+      "descricao": "Um sérum de vitamina C estabilizada, desenhado para o sol daqui. Espalha em água, some antes do protetor e devolve claridade sem descascar a rotina. A textura é fina de propósito: cabe debaixo de maquiagem e não briga com o calor.",
+      "beneficios": [
+        {"titulo": "Luminosidade", "texto": "Aparência mais uniforme em duas semanas de uso diário."},
+        {"titulo": "Leve de verdade", "texto": "Sem óleo, sem película. Some em menos de um minuto."},
+        {"titulo": "Rotina curta", "texto": "Um passo só, de manhã, antes do FPS."}
+      ],
+      "modoDeUso": [
+        "De manhã, com a pele limpa e ainda úmida.",
+        "Quatro gotas no rosto e no pescoço. Espere secar.",
+        "Finalize com o Protetor Véu Invisível."
+      ],
+      "ingredientes": "Fórmula de exemplo: vitamina C estabilizada 15%, niacinamida, ácido hialurônico de baixo peso e extrato de chá branco. Sem perfume marcado.",
+      "variacoes": [
+        {"id": "15", "nome": "15 ml", "tipo": "tamanho", "preco": 129},
+        {"id": "30", "nome": "30 ml", "tipo": "tamanho", "preco": 189, "padrao": true}
+      ],
+      "relacionados": ["creme-veu-de-seda", "protetor-veu-invisivel", "kit-ritual-aurora"],
+      "comentarios": [
+        {"nome": "Marina Alves", "cidade": "São Paulo", "nota": 5, "data": "agosto de 2026", "texto": "Troquei um sérum que ardia por este. A pele acorda mais clara e o protetor não borra."},
+        {"nome": "Aline Pires", "cidade": "Campinas", "nota": 5, "data": "julho de 2026", "texto": "Uso o de 15 ml na bolsa e o de 30 ml em casa. A textura é a mesma, fina, sem cheiro."},
+        {"nome": "Renata Luz", "cidade": "Curitiba", "nota": 4, "data": "junho de 2026", "texto": "Gostei do brilho saudável. No primeiro dia exagerei na quantidade; quatro gotas bastam."}
+      ]
+    },
+    {
+      "id": "creme-veu-de-seda",
+      "nome": "Creme Véu de Seda",
+      "headline": "Barreira confortável, toque seco em dois minutos.",
+      "categoria": "skincare",
+      "preco": 156,
+      "avaliacao": 4.9,
+      "avaliacoes": 214,
+      "badge": "Editor's pick",
+      "tags": ["clean"],
+      "estoque": 18,
+      "semana": 31,
+      "ordem": 60,
+      "vitrines": ["escolhidos"],
+      "imagens": [
+        {"id": "1620916566398-39f1143ab7be", "alt": "Pote de creme facial branco com tampa neutra"},
+        {"id": "1556228453-efd6c1ff04f6", "alt": "Pote aberto de creme com textura sedosa"},
+        {"id": "1571781926291-c477ebfd024b", "alt": "Conjunto de cuidados de pele em bancada clara"}
+      ],
+      "descricao": "O creme que fecha a rotina sem pesar. Ceramida e manteiga de karité em dose baixa, para quem mora em cidade úmida e ainda assim sente a pele repuxar no ar-condicionado.",
+      "beneficios": [
+        {"titulo": "Conforto", "texto": "A pele deixa de repuxar no meio da tarde."},
+        {"titulo": "Toque seco", "texto": "Base e protetor assentam por cima, sem rolha."},
+        {"titulo": "Calmo", "texto": "Perfume quase nenhum. Serve pele que se incomoda fácil."}
+      ],
+      "modoDeUso": [
+        "De manhã e à noite, depois do sérum.",
+        "Uma ervilha para o rosto inteiro.",
+        "De manhã, espere o toque secar antes do FPS."
+      ],
+      "ingredientes": "Fórmula de exemplo: ceramidas, manteiga de karité, pantenol e glicerina. Sem álcool de toque.",
+      "variacoes": [],
+      "relacionados": ["serum-luz-aurora", "protetor-veu-invisivel", "kit-ritual-aurora"],
+      "comentarios": [
+        {"nome": "Beatriz Nogueira", "cidade": "Porto Alegre", "nota": 5, "data": "setembro de 2026", "texto": "Minha pele é mista e este creme não brilha na zona T. Virou o pote da pia."},
+        {"nome": "Sofia Klein", "cidade": "Florianópolis", "nota": 5, "data": "maio de 2026", "texto": "Uso à noite só. Acordo com a bochecha macia, sem película."}
+      ]
+    },
+    {
+      "id": "tonico-nevoa-de-cha",
+      "nome": "Tônico Névoa de Chá",
+      "headline": "Bruma leve para equilibrar e preparar a pele.",
+      "categoria": "skincare",
+      "preco": 89,
+      "avaliacao": 4.7,
+      "avaliacoes": 142,
+      "badge": "",
+      "tags": ["vegano", "clean"],
+      "estoque": 24,
+      "semana": 19,
+      "ordem": 40,
+      "vitrines": [],
+      "imagens": [
+        {"id": "1556228720-195a672e8a03", "alt": "Frasco de tônico em bancada clara"},
+        {"id": "1556228578-0d85b1a4d571", "alt": "Frascos de cuidado facial alinhados"},
+        {"id": "1629198688000-71f23e745b6e", "alt": "Rotina de pele com frascos brancos"}
+      ],
+      "descricao": "Uma névoa de chá branco para usar depois da limpeza ou por cima da maquiagem, quando o ar seca. Não é adstringente: não repuxa, não arde, não promete fechar poro.",
+      "beneficios": [
+        {"titulo": "Preparação", "texto": "O sérum espalha melhor na pele úmida."},
+        {"titulo": "Durante o dia", "texto": "Reaplica na bolsa sem desmanchar a base."},
+        {"titulo": "Frescor baixo", "texto": "Chá branco, não essência doce."}
+      ],
+      "modoDeUso": [
+        "Borrife no rosto a um palmo de distância.",
+        "De manhã, antes do sérum. De tarde, quando a pele pedir.",
+        "Não enxágue."
+      ],
+      "ingredientes": "Fórmula de exemplo: água de chá branco, glicerina vegetal e pantenol.",
+      "variacoes": [],
+      "relacionados": ["serum-luz-aurora", "gel-agua-de-flor", "creme-veu-de-seda"],
+      "comentarios": [
+        {"nome": "Larissa Moura", "cidade": "Fortaleza", "nota": 5, "data": "agosto de 2026", "texto": "Levo na bolsa. No ar-condicionado do trabalho, salva a base sem deixar a pele melada."},
+        {"nome": "Patrícia Gomes", "cidade": "Brasília", "nota": 4, "data": "abril de 2026", "texto": "Cheiro bem discreto. Uso mais como bruma do que como tônico clássico."}
+      ]
+    },
+    {
+      "id": "oleo-noite-clara",
+      "nome": "Óleo Noite Clara",
+      "headline": "Nutre ao anoitecer e amanhece sem peso.",
+      "categoria": "skincare",
+      "preco": 142,
+      "avaliacao": 4.8,
+      "avaliacoes": 98,
+      "badge": "",
+      "tags": ["clean"],
+      "estoque": 15,
+      "semana": 17,
+      "ordem": 55,
+      "vitrines": ["escolhidos"],
+      "imagens": [
+        {"id": "1608571423902-eed4a5ad8108", "alt": "Frasco âmbar de óleo facial com conta-gotas"},
+        {"id": "1598440947619-2c35fc9aa908", "alt": "Gota de óleo dourado no conta-gotas"}
+      ],
+      "descricao": "Duas gotas à noite, sobre o creme, para pele que descama com frio ou com ácido. O óleo some. Não é máscara, não mancha o linho se você espera um minuto.",
+      "beneficios": [
+        {"titulo": "À noite", "texto": "Sela o creme sem transformar o travesseiro em mancha."},
+        {"titulo": "Poucas gotas", "texto": "O frasco dura porque a dose é mínima."},
+        {"titulo": "Toque acordado", "texto": "De manhã a pele está macia, não oleosa."}
+      ],
+      "modoDeUso": [
+        "À noite, depois do Creme Véu de Seda.",
+        "Duas gotas nas palmas e pressione o rosto.",
+        "Não use de manhã por baixo do FPS."
+      ],
+      "ingredientes": "Fórmula de exemplo: esqualano vegetal, óleo de jojoba e vitamina E.",
+      "variacoes": [],
+      "relacionados": ["creme-veu-de-seda", "serum-luz-aurora", "manteiga-de-castanha"],
+      "comentarios": [
+        {"nome": "Juliana Pires", "cidade": "Curitiba", "nota": 5, "data": "julho de 2026", "texto": "No inverno a bochecha rachava. Duas gotas resolveram sem brilho no dia seguinte."},
+        {"nome": "Fernanda Leal", "cidade": "São Paulo", "nota": 4, "data": "março de 2026", "texto": "Gosto do conta-gotas. Uma gota a mais já é demais — o modo de uso está certo."}
+      ]
+    },
+    {
+      "id": "gel-agua-de-flor",
+      "nome": "Gel-creme Água de Flor",
+      "headline": "Hidratação em água, para o clima quente.",
+      "categoria": "skincare",
+      "preco": 128,
+      "avaliacao": 4.9,
+      "avaliacoes": 37,
+      "badge": "Lançamento",
+      "tags": ["vegano"],
+      "estoque": 20,
+      "semana": 22,
+      "ordem": 96,
+      "vitrines": ["lancamentos"],
+      "imagens": [
+        {"id": "1619451334792-150fd785ee74", "alt": "Gel-creme em frasco claro sobre fundo rosado"},
+        {"id": "1617897903246-719242758050", "alt": "Textura de gel-creme em close"}
+      ],
+      "descricao": "Para quem acha todo creme pesado entre novembro e março. Gel-creme com ácido hialurônico, água de flor de laranjeira e zero óleo. A pele bebe e fica quieta.",
+      "beneficios": [
+        {"titulo": "Calor", "texto": "Não derrete, não escorre, não brilha em excesso."},
+        {"titulo": "Por baixo da base", "texto": "A maquiagem assenta em pele macia, não em pele sedenta."},
+        {"titulo": "Novo", "texto": "Textura da estação. Ainda em primeiro lote."}
+      ],
+      "modoDeUso": [
+        "De manhã, no lugar do creme, se a pele estiver oleosa.",
+        "Uma quantidade do tamanho de uma moeda pequena.",
+        "Pode misturar uma gota do sérum na palma."
+      ],
+      "ingredientes": "Fórmula de exemplo: ácido hialurônico, água de flor de laranjeira, glicerina e pantenol.",
+      "variacoes": [],
+      "relacionados": ["tonico-nevoa-de-cha", "serum-luz-aurora", "protetor-veu-invisivel"],
+      "comentarios": [
+        {"nome": "Amanda Reis", "cidade": "Rio de Janeiro", "nota": 5, "data": "outubro de 2026", "texto": "Moro na zona sul e todo creme escorria. Este fica. A base dura a tarde."},
+        {"nome": "Bianca Telles", "cidade": "Salvador", "nota": 5, "data": "setembro de 2026", "texto": "Cheiro de flor bem longe, quase água. Virou meu hidratante de janeiro antecipado."}
+      ]
+    },
+    {
+      "id": "protetor-veu-invisivel",
+      "nome": "Protetor Véu Invisível FPS 50",
+      "headline": "Alta proteção com acabamento que ninguém nota.",
+      "categoria": "skincare",
+      "preco": 119,
+      "precoDe": 139,
+      "avaliacao": 4.8,
+      "avaliacoes": 411,
+      "badge": "Mais vendido",
+      "tags": ["vegano", "fps"],
+      "estoque": 22,
+      "semana": 61,
+      "ordem": 78,
+      "vitrines": ["vendidos"],
+      "imagens": [
+        {"id": "1526947425960-945c6e72858f", "alt": "Frasco branco de protetor solar sobre fundo suave"},
+        {"id": "1571781926291-c477ebfd024b", "alt": "Protetor ao lado de outros cuidados de pele"},
+        {"id": "1596755094514-f87e34085b2c", "alt": "Rotina de manhã organizada na bancada"}
+      ],
+      "descricao": "FPS 50 com acabamento véu: nem branco, nem oleoso, nem com cheiro de praia. Feito para usar todo dia, no caminho do trabalho, por baixo ou no lugar da base.",
+      "beneficios": [
+        {"titulo": "Invisível", "texto": "Sem rastro branco em peles mais profundas."},
+        {"titulo": "Todo dia", "texto": "Textura que você aceita repetir, não só na praia."},
+        {"titulo": "Por cima do sérum", "texto": "Assenta sem grumo quando a pele está seca."}
+      ],
+      "modoDeUso": [
+        "Dois dedos de produto para o rosto. Essa é a dose.",
+        "Reaplique a cada duas horas se houver sol direto.",
+        "De manhã, sempre por último na rotina de pele."
+      ],
+      "ingredientes": "Fórmula de exemplo: filtros modernos de amplo espectro, niacinamida e glicerina. Sem perfume de praia.",
+      "variacoes": [
+        {"id": "40", "nome": "40 ml", "tipo": "tamanho", "preco": 89},
+        {"id": "60", "nome": "60 ml", "tipo": "tamanho", "preco": 119, "padrao": true}
+      ],
+      "relacionados": ["serum-luz-aurora", "creme-veu-de-seda", "kit-ritual-aurora"],
+      "comentarios": [
+        {"nome": "Tatiane Borges", "cidade": "Recife", "nota": 5, "data": "agosto de 2026", "texto": "Finalmente um FPS que não deixa a minha pele acinzentada. Uso a dose inteira dos dois dedos."},
+        {"nome": "Carolina Dias", "cidade": "São Paulo", "nota": 5, "data": "junho de 2026", "texto": "O de 40 ml vive na nécessaire. Não arde o olho, o que para mim decide."},
+        {"nome": "Elisa Martins", "cidade": "Belém", "nota": 4, "data": "maio de 2026", "texto": "No sol forte eu reaplico. Sozinho de manhã, o acabamento continua mate até o almoço."}
+      ]
+    },
+    {
+      "id": "batom-nectar",
+      "nome": "Batom Néctar",
+      "headline": "Cor cremosa com o conforto de um balm.",
+      "categoria": "maquiagem",
+      "preco": 79,
+      "precoDe": 96,
+      "avaliacao": 4.7,
+      "avaliacoes": 188,
+      "badge": "Mais vendido",
+      "tags": ["vegano"],
+      "estoque": 16,
+      "semana": 44,
+      "ordem": 70,
+      "vitrines": ["vendidos"],
+      "imagens": [
+        {"id": "1586495777744-4413f21062fa", "alt": "Batom cremoso em tom nectar sobre fundo limpo"},
+        {"id": "1571875257727-256c39da42af", "alt": "Batom em tom nude aberto"},
+        {"id": "1515377905703-c4788e51af15", "alt": "Close da ponta cremosa de um batom"}
+      ],
+      "descricao": "Cor que parece sua, não uma máscara. O Néctar tem manteiga de karité e um brilho baixo, do tipo que não gruda no copo na primeira hora. Quatro tons editados, nenhum neon.",
+      "beneficios": [
+        {"titulo": "Conforto", "texto": "Não resseca o lábio ao longo do dia."},
+        {"titulo": "Brilho baixo", "texto": "Acabamento cremoso, sem glitter."},
+        {"titulo": "Tons reais", "texto": "Do rosa chá ao vinho, todos usáveis sem ensaio."}
+      ],
+      "modoDeUso": [
+        "Aplique direto do bullet, do centro para os cantos.",
+        "Uma camada é cor. Duas, presença.",
+        "Para durar mais, pressione com o dedo em vez de esfregar."
+      ],
+      "ingredientes": "Fórmula de exemplo: manteiga de karité, cera vegetal e pigmentos minerais.",
+      "variacoes": [
+        {"id": "nectar", "nome": "Néctar", "tipo": "cor", "hex": "#C96B6B", "padrao": true},
+        {"id": "rosa-cha", "nome": "Rosa chá", "tipo": "cor", "hex": "#D9A3A8"},
+        {"id": "terracota", "nome": "Terracota", "tipo": "cor", "hex": "#B8613E"},
+        {"id": "vinho", "nome": "Vinho", "tipo": "cor", "hex": "#6E2433"}
+      ],
+      "relacionados": ["blush-nuvem", "bruma-linho-fresco", "kit-presente-nectar"],
+      "comentarios": [
+        {"nome": "Isabela Fontes", "cidade": "Belo Horizonte", "nota": 5, "data": "setembro de 2026", "texto": "Terracota é o tom que eu procurava sem saber o nome. Confortável o dia inteiro."},
+        {"nome": "Vanessa Prado", "cidade": "Ribeirão Preto", "nota": 4, "data": "julho de 2026", "texto": "O Vinho é mais suave do que parece no swatch. Gostei. Dura bem até o café."}
+      ]
+    },
+    {
+      "id": "base-segunda-pele",
+      "nome": "Base Segunda Pele",
+      "headline": "Cobertura modulável que respeita a sua textura.",
+      "categoria": "maquiagem",
+      "preco": 168,
+      "avaliacao": 4.6,
+      "avaliacoes": 253,
+      "badge": "",
+      "tags": ["clean"],
+      "estoque": 14,
+      "semana": 27,
+      "ordem": 62,
+      "vitrines": ["escolhidos"],
+      "imagens": [
+        {"id": "1522338242992-e1a54906a8da", "alt": "Maquiagem de pele sendo aplicada com delicadeza"},
+        {"id": "1487412947147-5cebf100ffc2", "alt": "Pele com acabamento natural e luminoso"},
+        {"id": "1515688594390-b649af70d282", "alt": "Rosto em close com pele uniforme e leve"}
+      ],
+      "descricao": "Cobertura que você constrói. Uma camada uniformiza. Duas, disfarçam o que a noite fez. O acabamento é pele, não máscara: poros continuam parecendo poros, só mais calmos.",
+      "beneficios": [
+        {"titulo": "Modulável", "texto": "Do véu ao dia de reunião, com o mesmo frasco."},
+        {"titulo": "Cinco tons", "texto": "Do porcelana ao âmbar, com subtom pensado."},
+        {"titulo": "Não marca", "texto": "Não acumula no sulco da testa no meio do dia."}
+      ],
+      "modoDeUso": [
+        "Com os dedos, aqueça uma bomba nas maçãs e espalhe.",
+        "Construa só onde a pele pede.",
+        "Finalize com pó só na zona T, se o dia estiver úmido."
+      ],
+      "ingredientes": "Fórmula de exemplo: pigmentos tratados, esqualano e niacinamida em baixa dose.",
+      "variacoes": [
+        {"id": "porcelana", "nome": "Porcelana", "tipo": "cor", "hex": "#F6DDD0"},
+        {"id": "areia", "nome": "Bege areia", "tipo": "cor", "hex": "#E6C2A6", "padrao": true},
+        {"id": "mel", "nome": "Mel", "tipo": "cor", "hex": "#C8926A"},
+        {"id": "canela", "nome": "Canela", "tipo": "cor", "hex": "#8D5A3C"},
+        {"id": "ambar", "nome": "Âmbar", "tipo": "cor", "hex": "#5C3828"}
+      ],
+      "relacionados": ["blush-nuvem", "iluminador-luz-de-dentro", "protetor-veu-invisivel"],
+      "comentarios": [
+        {"nome": "Juliana Pires", "cidade": "Curitiba", "nota": 5, "data": "agosto de 2026", "texto": "Canela acertou o meu subtom, que costuma ficar cinza em base fria. Não marca a testa."},
+        {"nome": "Daniela Souza", "cidade": "Salvador", "nota": 4, "data": "maio de 2026", "texto": "Âmbar é profundo de verdade. Queria um tom entre ele e canela, mas o acabamento é ótimo."}
+      ]
+    },
+    {
+      "id": "blush-nuvem",
+      "nome": "Blush Nuvem",
+      "headline": "Um sopro de cor, como se fosse seu.",
+      "categoria": "maquiagem",
+      "preco": 89,
+      "avaliacao": 4.8,
+      "avaliacoes": 121,
+      "badge": "",
+      "tags": ["vegano"],
+      "estoque": 19,
+      "semana": 23,
+      "ordem": 58,
+      "vitrines": ["escolhidos"],
+      "imagens": [
+        {"id": "1596462502278-27bfdc403348", "alt": "Maquiagem em tons de blush disposta em superfície clara"},
+        {"id": "1512496015851-a90fb38ba796", "alt": "Paleta e cores de maquiagem em arranjo editorial"}
+      ],
+      "descricao": "Blush cremoso que imita o sangue subindo, não um círculo de pó. Derrete no dedo e fica no lugar. Três tons: pêssego, malva e bronze.",
+      "beneficios": [
+        {"titulo": "Efeito pele", "texto": "Cor que parece vir de dentro, não de um pincel carregado."},
+        {"titulo": "Dedo ou pincel", "texto": "Os dois funcionam. O dedo fica mais nuvem."},
+        {"titulo": "Dura", "texto": "Continua depois do almoço, some sem manchar."}
+      ],
+      "modoDeUso": [
+        "Toque o produto e aqueça entre os dedos.",
+        "Aplique no alto da maçã, sorrindo, e esfuma em direção à têmpora.",
+        "Uma camada. A segunda só se o dia pedir."
+      ],
+      "ingredientes": "Fórmula de exemplo: ceras vegetais, manteiga de karité e pigmentos minerais.",
+      "variacoes": [
+        {"id": "pessego", "nome": "Pêssego", "tipo": "cor", "hex": "#E7A48A", "padrao": true},
+        {"id": "malva", "nome": "Malva", "tipo": "cor", "hex": "#C47A8A"},
+        {"id": "bronze", "nome": "Bronze", "tipo": "cor", "hex": "#C48862"}
+      ],
+      "relacionados": ["batom-nectar", "iluminador-luz-de-dentro", "kit-presente-nectar"],
+      "comentarios": [
+        {"nome": "Luiza Brenner", "cidade": "Porto Alegre", "nota": 5, "data": "setembro de 2026", "texto": "Malva na minha pele clara fica elegante, não infantil. Aplico com o dedo no carro."},
+        {"nome": "Gabriela Nunes", "cidade": "São Paulo", "nota": 5, "data": "junho de 2026", "texto": "Bronze dá vida em pele negra sem virar contorno. Uso todo dia."}
+      ]
+    },
+    {
+      "id": "mascara-cilios-orvalho",
+      "nome": "Máscara Cílios Orvalho",
+      "headline": "Volume suave, sem grumos e sem rigidez.",
+      "categoria": "maquiagem",
+      "preco": 86,
+      "avaliacao": 4.7,
+      "avaliacoes": 176,
+      "badge": "",
+      "tags": [],
+      "estoque": 21,
+      "semana": 18,
+      "ordem": 36,
+      "vitrines": [],
+      "imagens": [
+        {"id": "1522335789203-aabd1fc54bc9", "alt": "Pincéis e maquiagem dos olhos em bancada"},
+        {"id": "1515688594390-b649af70d282", "alt": "Olhar com cílios definidos e pele limpa"}
+      ],
+      "descricao": "Uma máscara que separa antes de engrossar. O efeito é cílio penteado, com ponta, sem a casquinha que esfarela às quatro da tarde.",
+      "beneficios": [
+        {"titulo": "Sem grumo", "texto": "A escova fina penteia enquanto deposita."},
+        {"titulo": "Remove fácil", "texto": "Sai com óleo de limpeza, sem esfregar."},
+        {"titulo": "Dia inteiro", "texto": "Não borra a pálpebra inferior no calor comum."}
+      ],
+      "modoDeUso": [
+        "Zigzague da raiz à ponta.",
+        "Segunda camada só nas pontas, com a escova quase seca.",
+        "Não bombeie o tubo: entra ar e resseca a fórmula."
+      ],
+      "ingredientes": "Fórmula de exemplo: ceras, pigmento preto profundo e pantenol.",
+      "variacoes": [],
+      "relacionados": ["base-segunda-pele", "iluminador-luz-de-dentro", "batom-nectar"],
+      "comentarios": [
+        {"nome": "Raquel Ito", "cidade": "São Paulo", "nota": 5, "data": "agosto de 2026", "texto": "Tenho cílio curto e reto. Esta máscara alonga sem aquele efeito de perna de aranha."},
+        {"nome": "Natália Ferraz", "cidade": "Brasília", "nota": 4, "data": "abril de 2026", "texto": "Não borra no meu olho, que lacrimeja fácil. Eu queria um pouco mais de volume, só."}
+      ]
+    },
+    {
+      "id": "iluminador-luz-de-dentro",
+      "nome": "Iluminador Luz de Dentro",
+      "headline": "Glow úmido, nunca glitter.",
+      "categoria": "maquiagem",
+      "preco": 112,
+      "avaliacao": 4.9,
+      "avaliacoes": 44,
+      "badge": "Lançamento",
+      "tags": ["clean"],
+      "estoque": 17,
+      "semana": 15,
+      "ordem": 95,
+      "vitrines": ["lancamentos"],
+      "imagens": [
+        {"id": "1487412720507-e7ab37603c6f", "alt": "Pele iluminada em luz natural, close de rosto"},
+        {"id": "1503236823255-94609f598e71", "alt": "Retrato com glow suave nas maçãs"}
+      ],
+      "descricao": "Um líquido fino que imita pele úmida de saúde, não pó de estrela. Vai no alto da maçã, no osso da sobrancelha e, se quiser, no centro da pálpebra.",
+      "beneficios": [
+        {"titulo": "Sem partícula", "texto": "O brilho é contínuo. Não há ponto de glitter."},
+        {"titulo": "Pele real", "texto": "Funciona em todos os tons do catálogo da base."},
+        {"titulo": "Pouco", "texto": "Uma gota divide o rosto inteiro."}
+      ],
+      "modoDeUso": [
+        "Uma gota no dorso da mão.",
+        "Com o dedo, toque os pontos de luz.",
+        "Se usar base, aplique por cima, no fim."
+      ],
+      "ingredientes": "Fórmula de exemplo: mica ultrafina, esqualano e pigmento perolado de baixo reflexo.",
+      "variacoes": [],
+      "relacionados": ["blush-nuvem", "base-segunda-pele", "bruma-linho-fresco"],
+      "comentarios": [
+        {"nome": "Sabrina Ortiz", "cidade": "Rio de Janeiro", "nota": 5, "data": "outubro de 2026", "texto": "É o glow que eu via em foto e nunca achava no produto. Sem chunky glitter."},
+        {"nome": "Mônica Alegre", "cidade": "Campinas", "nota": 5, "data": "setembro de 2026", "texto": "Uso no centro do rosto, por cima da Base Segunda Pele. Parece pele descansada."}
+      ]
+    },
+    {
+      "id": "shampoo-raiz-leve",
+      "nome": "Shampoo Raiz Leve",
+      "headline": "Limpa a raiz e deixa o comprimento em paz.",
+      "categoria": "cabelos",
+      "preco": 78,
+      "avaliacao": 4.6,
+      "avaliacoes": 203,
+      "badge": "",
+      "tags": ["vegano"],
+      "estoque": 26,
+      "semana": 20,
+      "ordem": 30,
+      "vitrines": [],
+      "imagens": [
+        {"id": "1522337360788-8b13dee7a37e", "alt": "Cabelo sendo lavado com cuidado em um lavatório"},
+        {"id": "1562322140-8baeececf3df", "alt": "Cabelo úmido penteado depois da lavagem"}
+      ],
+      "descricao": "Espuma baixa, limpeza alta na raiz. O comprimento, que já sofre com sol e prancha, não precisa do mesmo sabão. Por isso a fórmula é gentil e o modo de uso pede foco no couro.",
+      "beneficios": [
+        {"titulo": "Raiz", "texto": "Remove oleosidade sem aquele efeito de palha."},
+        {"titulo": "Perfume baixo", "texto": "Cheiro de limpo, não de salão doce."},
+        {"titulo": "Dupla", "texto": "Desenhado para ir com o Condicionador Brilho de Seda."}
+      ],
+      "modoDeUso": [
+        "Molhe o cabelo. Aplique só na raiz e massageie.",
+        "Deixe a espuma escorrer pelo comprimento. Não esfregue as pontas.",
+        "Enxágue e siga com o condicionador."
+      ],
+      "ingredientes": "Fórmula de exemplo: tensoativos suaves de origem vegetal e extrato de chá verde.",
+      "variacoes": [],
+      "relacionados": ["condicionador-brilho-de-seda", "mascara-reparacao-noturna", "oleo-capilar-gota-de-ouro"],
+      "comentarios": [
+        {"nome": "Adriana Lima", "cidade": "Fortaleza", "nota": 4, "data": "julho de 2026", "texto": "Minha raiz é oleosa e a ponta, seca. Este shampoo é o primeiro que não piora as duas."},
+        {"nome": "Letícia Carvalho", "cidade": "São Paulo", "nota": 5, "data": "maio de 2026", "texto": "Espuma de verdade baixa. Lava. O cabelo não range."}
+      ]
+    },
+    {
+      "id": "condicionador-brilho-de-seda",
+      "nome": "Condicionador Brilho de Seda",
+      "headline": "Desembaraça e devolve o reflexo.",
+      "categoria": "cabelos",
+      "preco": 82,
+      "avaliacao": 4.7,
+      "avaliacoes": 167,
+      "badge": "",
+      "tags": ["vegano"],
+      "estoque": 23,
+      "semana": 16,
+      "ordem": 32,
+      "vitrines": [],
+      "imagens": [
+        {"id": "1519415510236-718bdfcd89c8", "alt": "Comprimento do cabelo sendo cuidado na lavagem"},
+        {"id": "1519699047748-de8e457a634e", "alt": "Cabelo com brilho natural e movimento"}
+      ],
+      "descricao": "Condicionador de meio às pontas, com penteado fácil e brilho que não parece silicone em excesso. Dois minutos. É o tempo.",
+      "beneficios": [
+        {"titulo": "Desembaraço", "texto": "O pente desce sem drama depois do banho."},
+        {"titulo": "Reflexo", "texto": "Brilho de cabelo saudável, não de filme plástico."},
+        {"titulo": "Leve", "texto": "Não apaga volume de raiz fina."}
+      ],
+      "modoDeUso": [
+        "Depois do shampoo, retire o excesso de água.",
+        "Aplique do meio às pontas. Evite a raiz.",
+        "Deixe dois minutos e enxágue em água morna."
+      ],
+      "ingredientes": "Fórmula de exemplo: behentrimonium, óleo de coco fracionado e pantenol.",
+      "variacoes": [],
+      "relacionados": ["shampoo-raiz-leve", "mascara-reparacao-noturna", "oleo-capilar-gota-de-ouro"],
+      "comentarios": [
+        {"nome": "Brenda Castro", "cidade": "Manaus", "nota": 5, "data": "agosto de 2026", "texto": "Meu cabelo cacheado desembaraça no banho, o que antes era uma cena. Brilho bonito."},
+        {"nome": "Carla Mendes", "cidade": "Curitiba", "nota": 4, "data": "março de 2026", "texto": "Uso pouco. Se passo na raiz, pesa. No comprimento, fica certo."}
+      ]
+    },
+    {
+      "id": "oleo-capilar-gota-de-ouro",
+      "nome": "Óleo Capilar Gota de Ouro",
+      "headline": "Uma gota sela as pontas, sem pesar.",
+      "categoria": "cabelos",
+      "preco": 96,
+      "avaliacao": 4.9,
+      "avaliacoes": 142,
+      "badge": "Editor's pick",
+      "tags": ["clean"],
+      "estoque": 18,
+      "semana": 26,
+      "ordem": 64,
+      "vitrines": ["escolhidos"],
+      "imagens": [
+        {"id": "1519699047748-de8e457a634e", "alt": "Cabelo solto com pontas seladas e brilho discreto"},
+        {"id": "1526045478516-99145907023c", "alt": "Cabelo com flores, textura macia e natural"}
+      ],
+      "descricao": "Óleo seco de verdade: espalha, some e segura a ponta contra o secador. Uma gota para cabelo curto. Três, para o longo. Nunca na raiz.",
+      "beneficios": [
+        {"titulo": "Pontas", "texto": "Menos frizz na superfície, sem aspecto engordurado."},
+        {"titulo": "Antes do calor", "texto": "Uma gota protege o comprimento do secador."},
+        {"titulo": "Perfume", "texto": "Notas baixas de madeira clara, parente do N°1."}
+      ],
+      "modoDeUso": [
+        "Seque o cabelo até uns 80%.",
+        "Aqueça uma a três gotas nas mãos.",
+        "Passe só nas pontas e na superfície do comprimento."
+      ],
+      "ingredientes": "Fórmula de exemplo: óleo de argan, esqualano e um véu de fragrância.",
+      "variacoes": [],
+      "relacionados": ["mascara-reparacao-noturna", "condicionador-brilho-de-seda", "shampoo-raiz-leve"],
+      "comentarios": [
+        {"nome": "Priscila Andrade", "cidade": "Belo Horizonte", "nota": 5, "data": "setembro de 2026", "texto": "Uma gota. Eu desconfiava do tanto, e é isso mesmo. A ponta fica alinhada o dia todo."},
+        {"nome": "Helena Duarte", "cidade": "Belo Horizonte", "nota": 5, "data": "junho de 2026", "texto": "O cheiro conversa com o perfume N°1. Uso os dois sem virar uma perfumaria."}
+      ]
+    },
+    {
+      "id": "mascara-reparacao-noturna",
+      "nome": "Máscara Reparação Noturna",
+      "headline": "Tratamento denso para fios exigidos.",
+      "categoria": "cabelos",
+      "preco": 118,
+      "precoDe": 138,
+      "avaliacao": 4.8,
+      "avaliacoes": 289,
+      "badge": "Mais vendido",
+      "tags": [],
+      "estoque": 12,
+      "semana": 33,
+      "ordem": 74,
+      "vitrines": ["vendidos"],
+      "imagens": [
+        {"id": "1562322140-8baeececf3df", "alt": "Cabelo tratado sendo finalizado com as mãos"},
+        {"id": "1522337360788-8b13dee7a37e", "alt": "Lavagem cuidadosa de cabelo danificado"}
+      ],
+      "descricao": "Para cabelo colorido, com química ou só muito sol. A máscara repõe lipídio e maciez em dez minutos. Uma vez por semana chega. Duas, se a ponta estiver porosa.",
+      "beneficios": [
+        {"titulo": "Toque", "texto": "O fio volta a deslizar entre os dedos."},
+        {"titulo": "Cor", "texto": "Ajuda o cabelo tingido a não parecer opaco."},
+        {"titulo": "Ritmo", "texto": "Não é passo diário. É o cuidado da semana."}
+      ],
+      "modoDeUso": [
+        "No cabelo úmido, depois do shampoo, do meio às pontas.",
+        "Deixe dez minutos. Um gorro de banho ajuda no inverno.",
+        "Enxágue bem. Não aplique condicionador depois."
+      ],
+      "ingredientes": "Fórmula de exemplo: manteiga de karité, proteína de trigo hidrolisada e óleos leves.",
+      "variacoes": [],
+      "relacionados": ["shampoo-raiz-leve", "oleo-capilar-gota-de-ouro", "condicionador-brilho-de-seda"],
+      "comentarios": [
+        {"nome": "Camila Rocha", "cidade": "Recife", "nota": 4, "data": "agosto de 2026", "texto": "Cabelo colorido e sal. Uma vez por semana muda o toque sem derrubar o cachos."},
+        {"nome": "Rita Belmonte", "cidade": "Santos", "nota": 5, "data": "julho de 2026", "texto": "Uso antes da praia e depois. A ponta parou de abrir feito escova."}
+      ]
+    },
+    {
+      "id": "hidratante-corporal-ambar",
+      "nome": "Hidratante Corporal Âmbar",
+      "headline": "Pele macia o dia inteiro, perfume baixo.",
+      "categoria": "corpo",
+      "preco": 92,
+      "avaliacao": 4.8,
+      "avaliacoes": 231,
+      "badge": "",
+      "tags": ["vegano"],
+      "estoque": 20,
+      "semana": 29,
+      "ordem": 66,
+      "vitrines": ["escolhidos"],
+      "imagens": [
+        {"id": "1631730486572-226d1f595b68", "alt": "Pote de hidratante corporal em tom âmbar claro"},
+        {"id": "1560750588-73207b1ef5b8", "alt": "Pele do corpo sendo hidratada em ambiente calmo"}
+      ],
+      "descricao": "Loção que seca em pele, não em película. Âmbar de perfume: madeira e um doce quase nenhum, para usar e em seguida vestir a roupa. Absorve antes do tecido.",
+      "beneficios": [
+        {"titulo": "Toque seco", "texto": "Veste a roupa dois minutos depois, sem marca."},
+        {"titulo": "Perfume próprio", "texto": "Baixo o bastante para conviver com o N°1."},
+        {"titulo": "Corpo inteiro", "texto": "O pote rende porque a dose espalha."}
+      ],
+      "modoDeUso": [
+        "Na pele ainda úmida, ao sair do banho.",
+        "Insista em canela, cotovelo e joelho.",
+        "De manhã, se o ar-condicionado ressecar."
+      ],
+      "ingredientes": "Fórmula de exemplo: manteiga de karité em baixa dose, glicerina e fragrância âmbar.",
+      "variacoes": [],
+      "relacionados": ["oleo-de-banho-laranjeira", "manteiga-de-castanha", "esfoliante-sal-rosa"],
+      "comentarios": [
+        {"nome": "Elisa Martins", "cidade": "Belém", "nota": 5, "data": "setembro de 2026", "texto": "Suor e calor, e mesmo assim o creme não fica pegajoso. O cheiro é adulto."},
+        {"nome": "Ana Clara Ruiz", "cidade": "São Paulo", "nota": 4, "data": "maio de 2026", "texto": "Uso todo dia nas canelas. Não mancha a calça preta, que era o meu teste."}
+      ]
+    },
+    {
+      "id": "esfoliante-sal-rosa",
+      "nome": "Esfoliante Sal Rosa",
+      "headline": "Grãos finos, pele lisa, sem arranhar.",
+      "categoria": "corpo",
+      "preco": 74,
+      "avaliacao": 4.6,
+      "avaliacoes": 88,
+      "badge": "",
+      "tags": ["vegano"],
+      "estoque": 19,
+      "semana": 11,
+      "ordem": 28,
+      "vitrines": [],
+      "imagens": [
+        {"id": "1540555700478-4be289fbecef", "alt": "Ritual de banho com sais e toalha em pedra clara"},
+        {"id": "1535585209827-a15fcdbc4c2d", "alt": "Banheira preparada para um ritual de corpo"}
+      ],
+      "descricao": "Sal fino em óleo, para usar uma vez por semana no corpo úmido. Tira a opacidade da canela sem deixar a pele vermelha. Não é para o rosto.",
+      "beneficios": [
+        {"titulo": "Grão fino", "texto": "Poli sem arranhão. A pele fica lisa, não irritada."},
+        {"titulo": "Uma vez", "texto": "Semanal chega. Mais do que isso, a pele reclama."},
+        {"titulo": "Antes do creme", "texto": "O hidratante rende o dobro na pele polida."}
+      ],
+      "modoDeUso": [
+        "No corpo úmido, fora do jato d'água.",
+        "Massageie em círculos e enxágue.",
+        "Feche com o Hidratante Âmbar ou a Manteiga de Castanha."
+      ],
+      "ingredientes": "Fórmula de exemplo: sal marinho fino, óleo de girassol e argila rosa.",
+      "variacoes": [],
+      "relacionados": ["hidratante-corporal-ambar", "oleo-de-banho-laranjeira", "manteiga-de-castanha"],
+      "comentarios": [
+        {"nome": "Fabiana Lopes", "cidade": "Campinas", "nota": 4, "data": "agosto de 2026", "texto": "O grão é fino de verdade. Uso na canela antes de vestido e a pele fica outra."},
+        {"nome": "Paula Ribeiro", "cidade": "Curitiba", "nota": 5, "data": "fevereiro de 2026", "texto": "Cheiro neutro. Não briga com o perfume. Uma vez por semana, como está escrito."}
+      ]
+    },
+    {
+      "id": "oleo-de-banho-laranjeira",
+      "nome": "Óleo de Banho Flor de Laranjeira",
+      "headline": "O banho vira ritual quando a água encontra o óleo.",
+      "categoria": "corpo",
+      "preco": 108,
+      "avaliacao": 4.9,
+      "avaliacoes": 76,
+      "badge": "",
+      "tags": ["clean", "presente"],
+      "estoque": 13,
+      "semana": 14,
+      "ordem": 61,
+      "vitrines": ["escolhidos"],
+      "imagens": [
+        {"id": "1535585209827-a15fcdbc4c2d", "alt": "Banho preparado com óleo e atmosfera calma"},
+        {"id": "1608571423902-eed4a5ad8108", "alt": "Frasco de óleo dourado ao lado da banheira"}
+      ],
+      "descricao": "Algumas gotas na água morna. O óleo sobe na pele quando você sai e o hidratante quase não precisa trabalhar. Flor de laranjeira de verdade, parente olfativo do Paula N°1.",
+      "beneficios": [
+        {"titulo": "Ritual", "texto": "Transforma um banho comum sem pedir mais do que quatro gotas."},
+        {"titulo": "Pele", "texto": "Você sai macia, não apenas cheirosa."},
+        {"titulo": "Presente", "texto": "O frasco já chega com cara de cuidado."}
+      ],
+      "modoDeUso": [
+        "Quatro a seis gotas na banheira já cheia, não debaixo do chuveiro forte.",
+        "Fique dez minutos.",
+        "Seque sem esfregar. O óleo que fica é a hidratação."
+      ],
+      "ingredientes": "Fórmula de exemplo: óleo de amêndoa, flor de laranjeira e vitamina E.",
+      "variacoes": [],
+      "relacionados": ["hidratante-corporal-ambar", "eau-de-parfum-paula-n1", "bruma-linho-fresco"],
+      "comentarios": [
+        {"nome": "Lívia Antunes", "cidade": "Petrópolis", "nota": 5, "data": "julho de 2026", "texto": "O banho fica com cheiro de casa de avó moderna. A pele não pede creme depois."},
+        {"nome": "Marina Alves", "cidade": "São Paulo", "nota": 5, "data": "abril de 2026", "texto": "Uso domingo à noite. Quatro gotas. O frasco vai durar o ano, e tudo bem."}
+      ]
+    },
+    {
+      "id": "manteiga-de-castanha",
+      "nome": "Manteiga de Castanha",
+      "headline": "Nutrição de verdade para a pele ressecada.",
+      "categoria": "corpo",
+      "preco": 86,
+      "avaliacao": 4.7,
+      "avaliacoes": 154,
+      "badge": "",
+      "tags": ["clean"],
+      "estoque": 16,
+      "semana": 13,
+      "ordem": 34,
+      "vitrines": [],
+      "imagens": [
+        {"id": "1560750588-73207b1ef5b8", "alt": "Manteiga corporal sendo espalhada na pele"},
+        {"id": "1631730486572-226d1f595b68", "alt": "Pote de manteiga corporal em luz suave"}
+      ],
+      "descricao": "Mais densa que o Hidratante Âmbar, para cotovelo, canela no inverno e pele que descama com viagem de avião. Castanha-do-pará na fórmula, um aceno ao que o Brasil já sabe hidratar.",
+      "beneficios": [
+        {"titulo": "Densa", "texto": "Onde a loção não dá conta, a manteiga dá."},
+        {"titulo": "Pontual", "texto": "Não precisa do corpo inteiro. Vai no que pede."},
+        {"titulo": "Sem brilho eterno", "texto": "Absorve em alguns minutos se a pele estiver úmida."}
+      ],
+      "modoDeUso": [
+        "Aqueça uma quantidade pequena entre as mãos.",
+        "Pressione na pele úmida, nas áreas ressecadas.",
+        "De noite rende mais, debaixo de meia ou manga."
+      ],
+      "ingredientes": "Fórmula de exemplo: manteiga de karité, óleo de castanha-do-pará e cera vegetal.",
+      "variacoes": [],
+      "relacionados": ["hidratante-corporal-ambar", "esfoliante-sal-rosa", "oleo-noite-clara"],
+      "comentarios": [
+        {"nome": "Sílvia Kramer", "cidade": "Gramado", "nota": 5, "data": "junho de 2026", "texto": "Inverno serrano deixa a canela branca. Esta manteiga é a única que resolve até o dia seguinte."},
+        {"nome": "Joana Freire", "cidade": "Brasília", "nota": 4, "data": "agosto de 2026", "texto": "Densa mesmo. Uso só à noite. De manhã seria demais para a minha rotina."}
+      ]
+    },
+    {
+      "id": "eau-de-parfum-paula-n1",
+      "nome": "Eau de Parfum Paula N°1",
+      "headline": "Flor de laranjeira, chá branco e madeiras claras.",
+      "categoria": "perfumaria",
+      "preco": 289,
+      "precoDe": 340,
+      "avaliacao": 4.9,
+      "avaliacoes": 198,
+      "badge": "Mais vendido",
+      "tags": ["presente"],
+      "estoque": 5,
+      "semana": 24,
+      "ordem": 82,
+      "vitrines": ["vendidos"],
+      "imagens": [
+        {"id": "1592945403244-b3fbafd7f539", "alt": "Frasco de vidro de eau de parfum com luz suave"},
+        {"id": "1526045478516-99145907023c", "alt": "Flores claras ao lado da ideia olfativa do perfume"}
+      ],
+      "descricao": "O perfume da casa. Abre em flor de laranjeira, atravessa um chá branco e senta em madeira clara, sem baunilha doce e sem rastro que entra na sala antes de você. Pele, não névoa.",
+      "beneficios": [
+        {"titulo": "Assinatura", "texto": "Reconhecível para quem está perto, não para o elevador inteiro."},
+        {"titulo": "Estações", "texto": "Leve o bastante para janeiro, presente o bastante para julho."},
+        {"titulo": "Dois tamanhos", "texto": "30 ml para começar. 50 ml para ficar."}
+      ],
+      "modoDeUso": [
+        "Borrife nos pulsos, na base do pescoço e, se quiser, no cabelo a distância.",
+        "Não esfregue os pulsos. Deixe secar.",
+        "Uma reaplicação à tarde chega."
+      ],
+      "ingredientes": "Composição olfativa de exemplo: flor de laranjeira, chá branco, musk limpo e cedro claro.",
+      "variacoes": [
+        {"id": "30", "nome": "30 ml", "tipo": "tamanho", "preco": 219},
+        {"id": "50", "nome": "50 ml", "tipo": "tamanho", "preco": 289, "padrao": true}
+      ],
+      "relacionados": ["bruma-linho-fresco", "perfume-bolso-viagem", "oleo-de-banho-laranjeira"],
+      "comentarios": [
+        {"nome": "Helena Duarte", "cidade": "Belo Horizonte", "nota": 5, "data": "setembro de 2026", "texto": "Perfume de quem chega perto. Dura a tarde no pulso e não compete com a pele."},
+        {"nome": "Eduarda Paiva", "cidade": "Recife", "nota": 5, "data": "julho de 2026", "texto": "Comprei o de 30 ml para testar e em três semanas voltei pelo de 50. É o meu cheiro agora."},
+        {"nome": "Lívia Antunes", "cidade": "Petrópolis", "nota": 4, "data": "março de 2026", "texto": "No calor muito úmido ele fica mais flor do que madeira. Eu gosto. Minha irmã preferiu o inverno."}
+      ]
+    },
+    {
+      "id": "bruma-linho-fresco",
+      "nome": "Bruma Perfumada Linho Fresco",
+      "headline": "Perfume de pele, para reaplicar sem peso.",
+      "categoria": "perfumaria",
+      "preco": 129,
+      "avaliacao": 4.8,
+      "avaliacoes": 91,
+      "badge": "",
+      "tags": ["presente"],
+      "estoque": 18,
+      "semana": 19,
+      "ordem": 57,
+      "vitrines": ["escolhidos"],
+      "imagens": [
+        {"id": "1571781926291-c477ebfd024b", "alt": "Bruma e cuidados em vidro claro sobre linho"},
+        {"id": "1611930022073-b7a4ba5fcccd", "alt": "Frascos leves de bruma em composição neutra"}
+      ],
+      "descricao": "Uma bruma para o cabelo, a roupa e o espaço entre você e a tarde. Menos concentrada que o N°1, com a mesma família: linho, chá e um cítrico lavado. Reaplica à vontade.",
+      "beneficios": [
+        {"titulo": "Reaplica", "texto": "Feita para a bolsa, não só para a penteadeira."},
+        {"titulo": "Roupa e cabelo", "texto": "Não mancha tecido claro na distância certa."},
+        {"titulo": "Leve", "texto": "Quem não usa perfume clássico consegue usar esta."}
+      ],
+      "modoDeUso": [
+        "Borrife a trinta centímetros da roupa ou do cabelo.",
+        "No pulso, uma névoa só.",
+        "Pode ir por cima do N°1 quando ele baixar."
+      ],
+      "ingredientes": "Composição de exemplo: álcool de cereais, chá branco, flor de laranjeira e musk limpo.",
+      "variacoes": [],
+      "relacionados": ["eau-de-parfum-paula-n1", "perfume-bolso-viagem", "kit-presente-nectar"],
+      "comentarios": [
+        {"nome": "Clara Yoshimoto", "cidade": "São Paulo", "nota": 5, "data": "agosto de 2026", "texto": "Uso no escritório porque perfume forte me cansa. Esta é presença sem convite forçado."},
+        {"nome": "Helena Duarte", "cidade": "Belo Horizonte", "nota": 4, "data": "maio de 2026", "texto": "No cabelo fica lindo. Na blusa branca, borrifei de perto demais uma vez e marcou. De longe, não marca."}
+      ]
+    },
+    {
+      "id": "perfume-bolso-viagem",
+      "nome": "Perfume de Bolso Viagem",
+      "headline": "O N°1 em tamanho de passagem.",
+      "categoria": "perfumaria",
+      "preco": 98,
+      "avaliacao": 4.9,
+      "avaliacoes": 28,
+      "badge": "Lançamento",
+      "tags": ["presente"],
+      "estoque": 11,
+      "semana": 12,
+      "ordem": 94,
+      "vitrines": ["lancamentos"],
+      "imagens": [
+        {"id": "1526045478516-99145907023c", "alt": "Perfume de bolso sugerido em uma cena de viagem com flores"},
+        {"id": "1592945403244-b3fbafd7f539", "alt": "Versão de viagem ao lado da referência do frasco"}
+      ],
+      "descricao": "Dez mililitros do Paula N°1, em frasco que passa no líquido de mão. Para quem já conhece o cheiro e não quer ficar uma semana sem ele, ou para experimentar antes dos 30 ml.",
+      "beneficios": [
+        {"titulo": "Cabine", "texto": "Tamanho de nécessaire, não de frasco de casa."},
+        {"titulo": "O mesmo cheiro", "texto": "Não é uma versão aguada. É o N°1, menor."},
+        {"titulo": "Presente pequeno", "texto": "Cabe num cartão, numa mala, num primeiro encontro com a casa."}
+      ],
+      "modoDeUso": [
+        "Dois borrifos nos pulsos.",
+        "Guarde em pé na bolsa.",
+        "Quando acabar, o caminho natural é o frasco de 30 ml."
+      ],
+      "ingredientes": "A mesma composição olfativa do Eau de Parfum Paula N°1, em 10 ml.",
+      "variacoes": [],
+      "relacionados": ["eau-de-parfum-paula-n1", "bruma-linho-fresco", "kit-presente-nectar"],
+      "comentarios": [
+        {"nome": "Eduarda Paiva", "cidade": "Recife", "nota": 5, "data": "outubro de 2026", "texto": "Foi assim que eu conheci o N°1. Voltei da viagem e comprei o de 50 ml."},
+        {"nome": "Marina Alves", "cidade": "São Paulo", "nota": 5, "data": "setembro de 2026", "texto": "Levo no avião. O cheiro é idêntico, só a duração é um fio mais curta, como esperado."}
+      ]
+    },
+    {
+      "id": "kit-ritual-aurora",
+      "nome": "Kit Ritual Aurora",
+      "headline": "Sérum, creme e FPS. A rotina de três passos.",
+      "categoria": "kits",
+      "preco": 399,
+      "precoDe": 464,
+      "avaliacao": 4.9,
+      "avaliacoes": 142,
+      "badge": "Kit",
+      "tags": ["presente", "clean", "vegano"],
+      "estoque": 8,
+      "semana": 21,
+      "ordem": 76,
+      "vitrines": ["vendidos"],
+      "imagens": [
+        {"id": "1612817288484-6f916006741a", "alt": "Kit de skincare com três frascos em composição neutra"},
+        {"id": "1571781926291-c477ebfd024b", "alt": "Os três passos do ritual lado a lado"},
+        {"id": "1611930022073-b7a4ba5fcccd", "alt": "Detalhe dos frascos do Kit Ritual Aurora"}
+      ],
+      "descricao": "A manhã inteira, resolvida. Sérum Luz Aurora 30 ml, Creme Véu de Seda e Protetor Véu Invisível 60 ml. Sai por menos do que os três avulsos e chega pronto para presentear ou para começar sem dúvida de ordem.",
+      "beneficios": [
+        {"titulo": "Três passos", "texto": "Manhã fechada: trata, conforto, protege."},
+        {"titulo": "Economia", "texto": "R$ 65 a menos do que levar cada frasco separado."},
+        {"titulo": "Presente", "texto": "Para quem pede uma rotina, não um produto solto."}
+      ],
+      "modoDeUso": [
+        "Sérum na pele limpa.",
+        "Creme por cima. Espere o toque secar.",
+        "Protetor por último, dois dedos de produto."
+      ],
+      "ingredientes": "Reúne as fórmulas do Sérum Luz Aurora, do Creme Véu de Seda e do Protetor Véu Invisível FPS 50.",
+      "pecas": ["Sérum Luz Aurora 30 ml", "Creme Véu de Seda", "Protetor Véu Invisível FPS 50, 60 ml"],
+      "variacoes": [],
+      "relacionados": ["serum-luz-aurora", "creme-veu-de-seda", "protetor-veu-invisivel"],
+      "comentarios": [
+        {"nome": "Beatriz Nogueira", "cidade": "Porto Alegre", "nota": 5, "data": "setembro de 2026", "texto": "Comprei para a minha mãe e fiquei com inveja. A ordem dos passos está impressa na caixa, ela não se perdeu."},
+        {"nome": "Aline Pires", "cidade": "Campinas", "nota": 5, "data": "agosto de 2026", "texto": "Fiz a conta: os três separados saíam mais caro. E eu usaria os três de qualquer jeito."}
+      ]
+    },
+    {
+      "id": "kit-presente-nectar",
+      "nome": "Kit Presente Néctar",
+      "headline": "Batom, blush e bruma para levar ou oferecer.",
+      "categoria": "kits",
+      "preco": 249,
+      "precoDe": 297,
+      "avaliacao": 4.8,
+      "avaliacoes": 67,
+      "badge": "Kit",
+      "tags": ["presente", "vegano"],
+      "estoque": 10,
+      "semana": 16,
+      "ordem": 93,
+      "vitrines": ["lancamentos"],
+      "imagens": [
+        {"id": "1512496015851-a90fb38ba796", "alt": "Kit de maquiagem com cores de batom e blush em arranjo de presente"},
+        {"id": "1596462502278-27bfdc403348", "alt": "Peças de cor do Kit Presente Néctar sobre superfície clara"},
+        {"id": "1586495777744-4413f21062fa", "alt": "Batom Néctar, peça central do kit"}
+      ],
+      "descricao": "Um presente que não parece genérico. Batom Néctar no tom Néctar, Blush Nuvem Pêssego e a Bruma Linho Fresco. Três peças que conversam e saem por R$ 48 a menos.",
+      "beneficios": [
+        {"titulo": "Combinado", "texto": "Os tons foram escolhidos para irem juntos, sem ensaio."},
+        {"titulo": "Economia", "texto": "R$ 48 a menos do que as peças avulsas."},
+        {"titulo": "Embalagem", "texto": "Pronto para entregar. Sem papel extra de última hora."}
+      ],
+      "modoDeUso": [
+        "Blush nas maçãs, com o dedo.",
+        "Batom do centro para os cantos.",
+        "Bruma por último, a trinta centímetros."
+      ],
+      "ingredientes": "Reúne o Batom Néctar (tom Néctar), o Blush Nuvem (Pêssego) e a Bruma Perfumada Linho Fresco.",
+      "pecas": ["Batom Néctar no tom Néctar", "Blush Nuvem Pêssego", "Bruma Perfumada Linho Fresco"],
+      "variacoes": [],
+      "relacionados": ["batom-nectar", "blush-nuvem", "bruma-linho-fresco"],
+      "comentarios": [
+        {"nome": "Isabela Fontes", "cidade": "Belo Horizonte", "nota": 5, "data": "outubro de 2026", "texto": "Dei de aniversário e a pessoa me mandou foto usando os três. Acertou sem eu perguntar o tom."},
+        {"nome": "Clara Yoshimoto", "cidade": "São Paulo", "nota": 4, "data": "setembro de 2026", "texto": "Fiquei com o kit para mim. A bruma é o que eu mais uso. O blush pêssego é lindo e fácil."}
+      ]
+    }
+  ]
+}
