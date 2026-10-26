@@ -28,14 +28,14 @@
 
   function montar(produto) {
     const variacao = L.variacaoPadrao(produto);
-    const imgs = produto.imagens.map((img, i) => `<button type="button" data-thumb="${i}" aria-pressed="${i === 0 ? "true" : "false"}" aria-label="Foto ${i + 1} de ${produto.imagens.length}"><img src="${L.foto(img.id, 240)}" alt=""></button>`).join("");
+    const imgs = produto.imagens.map((img, i) => `<button type="button" data-thumb="${i}" aria-pressed="${i === 0 ? "true" : "false"}" aria-label="Foto ${i + 1} de ${produto.imagens.length}"><img src="${L.foto(img.id, 160)}" alt="" width="128" height="128" loading="lazy" decoding="async"></button>`).join("");
     return `<article class="wrap pdp">
       <div class="gallery">
         <nav class="crumbs" aria-label="Trilha">
           <a href="index.html">Início</a> / <a href="catalogo.html?cat=${L.esc(produto.categoria)}">${L.esc(L.catNome(produto.categoria))}</a> / <span aria-current="page">${L.esc(produto.nome)}</span>
         </nav>
         <div class="gallery-main" data-gallery tabindex="0" aria-label="Galeria de fotos">
-          <img src="${L.foto(produto.imagens[0].id, 1400)}" alt="${L.esc(produto.imagens[0].alt)}" width="900" height="1120" data-main>
+          <img src="${L.foto(produto.imagens[0].id, 960)}" alt="${L.esc(produto.imagens[0].alt)}" width="960" height="960" data-main>
         </div>
         <div class="thumbs">${imgs}</div>
       </div>
@@ -159,7 +159,7 @@
     function mostrarFoto(index) {
       const imgs = produto.imagens;
       foto = (index + imgs.length) % imgs.length;
-      main.src = L.foto(imgs[foto].id, 1400);
+      main.src = L.foto(imgs[foto].id, 960);
       main.alt = imgs[foto].alt;
       document.querySelectorAll("[data-thumb]").forEach((btn) => {
         btn.setAttribute("aria-pressed", Number(btn.dataset.thumb) === foto ? "true" : "false");

@@ -80,7 +80,8 @@
   }
 
   function foto(id, width) {
-    return `https://images.unsplash.com/photo-${id}?auto=format&fit=crop&w=${width}&q=75`;
+    const w = Math.max(240, Math.min(width, 1400));
+    return `https://images.unsplash.com/photo-${id}?auto=format&fit=crop&fm=jpg&w=${w}&q=60`;
   }
 
   function byId(id) {
@@ -125,9 +126,9 @@
     return `<span class="stars" style="--p:${pct.toFixed(1)}%" role="img" aria-label="${esc(notaTxt + " de 5 estrelas" + extra)}"><span class="stars-bg" aria-hidden="true">★★★★★</span><span class="stars-fg" aria-hidden="true">★★★★★</span></span>`;
   }
 
-  function priceBlock(preco, de) {
+  function priceBlock(preco, de, compact) {
     const antigo = de && de > preco ? `<s>${money(de)}</s>` : "";
-    const inst = preco >= 60
+    const inst = !compact && preco >= 60
       ? `<span class="inst">${CFG.parcelas}x de ${money(preco / CFG.parcelas)} sem juros</span>`
       : "";
     return `<p class="price"><span class="now">${money(preco)}</span>${antigo}</p>${inst}`;
@@ -144,19 +145,21 @@
     const img = produto.imagens[0];
     const acao = temCor(produto)
       ? `<a class="card-add" href="${productHref(produto.id)}#comprar">Escolher tom</a>`
-      : `<button type="button" class="card-add" data-add="${esc(produto.id)}">Adicionar à sacola</button>`;
-    const badge = produto.badge ? `<span class="badge">${esc(produto.badge)}</span>` : "";
+      : `<button type="button" class="card-add" data-add="${esc(produto.id)}">Adicionar</button>`;
+    const badge = produto.badge === "Mais vendido" || produto.badge === "Lançamento"
+      ? `<span class="badge">${esc(produto.badge)}</span>`
+      : "";
+    const src = foto(img.id, 480);
     return `<article class="card">
       <a class="card-media" href="${productHref(produto.id)}">
         ${badge}
-        <img src="${foto(img.id, 800)}" alt="${esc(img.alt)}" width="800" height="1000" loading="lazy" decoding="async">
+        <img src="${src}" srcset="${foto(img.id, 320)} 320w, ${foto(img.id, 480)} 480w, ${foto(img.id, 720)} 720w" sizes="(min-width: 1180px) 220px, (min-width: 980px) 22vw, (min-width: 760px) 30vw, 46vw" alt="${esc(img.alt)}" width="480" height="480" loading="lazy" decoding="async">
       </a>
       <div class="card-body">
-        <p class="card-cat">${esc(catNome(produto.categoria))}</p>
         <h3><a href="${productHref(produto.id)}">${esc(produto.nome)}</a></h3>
         <p class="headline">${esc(produto.headline)}</p>
         <p class="rating">${stars(produto.avaliacao, produto.avaliacoes)}</p>
-        ${priceBlock(preco, de)}
+        ${priceBlock(preco, de, true)}
         ${acao}
       </div>
     </article>`;
@@ -321,7 +324,7 @@
         ? `<a href="${productHref(produto.id)}#comprar">Escolher</a>`
         : `<button type="button" data-add="${esc(produto.id)}">Adicionar</button>`;
       return `<article class="upsell">
-        <a href="${productHref(produto.id)}"><img src="${foto(img.id, 240)}" alt="${esc(img.alt)}" width="88" height="110"></a>
+        <a href="${productHref(produto.id)}"><img src="${foto(img.id, 240)}" alt="${esc(img.alt)}" width="88" height="110" loading="lazy" decoding="async"></a>
         <div>
           <h3><a href="${productHref(produto.id)}">${esc(produto.nome)}</a></h3>
           <p>${money(preco)}</p>
@@ -393,7 +396,7 @@
       </div>`;
     }
     return rows.map((row) => `<article class="line">
-      <a class="line-media" href="${row.href}"><img src="${foto(row.imagem, 240)}" alt="${esc(row.alt)}" width="88" height="110"></a>
+      <a class="line-media" href="${row.href}"><img src="${foto(row.imagem, 240)}" alt="${esc(row.alt)}" width="88" height="110" loading="lazy" decoding="async"></a>
       <div class="line-copy">
         <h3><a href="${row.href}">${esc(row.nome)}</a></h3>
         ${row.variacaoNome ? `<p class="line-var">${esc(row.variacaoNome)}</p>` : ""}

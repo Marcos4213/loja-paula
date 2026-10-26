@@ -101,9 +101,11 @@
       }
       document.querySelectorAll("[data-vitrine]").forEach((node) => {
         const key = node.dataset.vitrine;
-        const items = L.produtos().filter((item) => (item.vitrines || []).includes(key));
+        let items = L.produtos().filter((item) => (item.vitrines || []).includes(key));
         items.sort((a, b) => (b.semana || 0) - (a.semana || 0));
+        if (key === "vendidos") items = items.slice(0, 5);
         renderVitrine(node, items);
+        if (key === "vendidos") node.querySelectorAll(".badge").forEach((el) => el.remove());
       });
       const quotes = document.querySelector("[data-quotes]");
       if (quotes) renderQuotes(quotes, L.depoimentos());
